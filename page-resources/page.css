@@ -1,0 +1,43 @@
+.hidden{
+	display: none;
+}
+.ui-collapsible-set{
+	margin: 0;
+}
+.pageContent{
+	padding-top: 0;
+}
+.popupTop{
+	width:290px;
+/* 	display: block; */
+	height: 170px;
+	border-bottom: 1px solid;
+	padding-bottom: 5px;
+}
+.popupImg{
+	float: left;
+	padding:2px 0 0 2px;
+	width: 160px;
+	height: 160px;
+	overflow: hidden;
+}
+.popupImg img{
+	width: 160px;
+	overflow: hidden;
+}
+.popupDesc{
+	float: right;
+	padding:5px 2px 0 2px;
+	width:120px;
+/* 	height:160px; */
+	max-width:120px;
+	text-overflow:ellipsis;
+	overflow: hidden;
+	word-wrap: break-word;
+	word-spacing:normal;
+/* 	word-break:break-all; */
+}
+.popupBottom{
+	width:100%;
+	height: 60px;
+}

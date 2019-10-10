@@ -1,0 +1,131 @@
+body {
+	background-color: #FFFFFF;
+	margin-top: 0px;
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	background-image: url("../back-resources/bg.jpg");
+}
+.bg-repeat{
+	border:0;
+	height:768px;
+	background-image: url("../images/bg-repeat.gif");
+}
+#__01 {
+	position: relative;
+	width: 1024px;
+	height: 768px;
+	margin: 0 auto;
+}
+
+#id1-01 {
+	position: absolute;
+	left: 0px;
+	top: 0px;
+	width: 331px;
+	height: 768px;
+	background-image: url("../images/1_01.gif");
+	background-size:cover; 
+}
+
+#id2-02 {
+	position: absolute;
+	left: 331px;
+	top: 0px;
+	width: 367px;
+	height: 347px;
+	background-image: url("../images/2_02.gif");
+}
+
+#id3-03 {
+	position: absolute;
+	left: 698px;
+	top: 0px;
+	width: 326px;
+	height: 768px;
+	background-image: url("../images/3_03.gif");
+	background-size:cover; 
+}
+
+#id4-04 {
+	position: absolute;
+	left: 331px;
+	top: 347px;
+	width: 367px;
+	height: 71px;
+	background-image: url("../images/4_04.gif");
+}
+
+#Darshboard-Login-05 {
+	position: absolute;
+	left: 331px;
+	top: 418px;
+	width: 367px;
+	height: 71px;
+	background-image: url("../images/Darshboard-Login_05.gif");
+}
+
+#id6-06 {
+	position: absolute;
+	left: 331px;
+	top: 489px;
+	width: 367px;
+	height: 67px;
+	cursor:pointer;
+	background-image: url("../images/6_06.gif");
+}
+
+#id7-07 {
+	position: absolute;
+	left: 331px;
+	top: 556px;
+	width: 367px;
+	height: 61px;
+	background-image: url("../images/7_07.gif");
+}
+
+#id8-08 {
+	position: absolute;
+	left: 331px;
+	top: 617px;
+	width: 367px;
+	height: 151px;
+	background-image: url("../images/8_08.gif");
+}
+
+.text-input {
+	height: 40px;
+	margin: 13px 0 0 70px;
+	width: 250px;
+ 	border: 0;
+	background-color: Transparent;
+	outline: none;
+	font-size: 30px;
+	color: white;
+}
+.text-input-error{
+	border: 1px solid red;
+}
+.loginBtn-clicked {
+	position: relative;
+	top: 1px;
+}
+.errorMsg{
+	text-align: center;
+	color:red;
+}
+.term{
+	color:#fff;
+	margin: 0 auto;
+	position: absolute;
+	top: 90%;
+	left: 50%;
+}
+.term a{
+	color:#fff;
+	text-decoration: none;
+
+}
+.term a:HOVER {
+	text-decoration: underline;
+}

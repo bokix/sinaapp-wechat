@@ -1,0 +1,1 @@
+# sinaapp-wechat

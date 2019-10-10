@@ -1,0 +1,247 @@
+body .listContainer {
+	margin-bottom: 20px
+}
+
+body .listItem {
+	padding: 10px 20px;
+	border-bottom: 1px solid #d3d3d3;
+	*zoom: 1
+}
+
+body .listItem:after {
+	content: "\200B";
+	display: block;
+	height: 0;
+	clear: both
+}
+
+body .listTitle {
+	overflow: hidden;
+	border-top: 1px solid #d3d3d3;
+	border-bottom: 1px solid #d3d3d3;
+	background-color: #f1f1f1
+}
+
+body .listTitle input[type="checkbox"] {
+	vertical-align: middle;
+	margin-top: -0.2em;
+	margin-right: 3px
+}
+
+body .catalogList {
+	margin-bottom: 100px
+}
+
+body .catalogList ul li a,body .catalogList ul li span {
+	display: block;
+	padding: 5px 0 5px 20px;
+	color: #000;
+	line-height: 21px;
+	text-decoration: none
+}
+
+.friendPage body .catalogList ul li a {
+	padding-right: 48px;
+	text-overflow: ellipsis;
+	overflow: hidden;
+	white-space: nowrap
+}
+
+body .catalogList ul li:hover {
+	background-color: #eee
+}
+
+body .catalogList ul .subCatalogList {
+	padding-left: 15px
+}
+
+body .catalogList ul li.selected {
+	background-color: #6bb05e;
+	background-image: -moz-linear-gradient(top, #79bc6e 0, #61a854 100%);
+	background-image: -webkit-gradient(linear, 0 0, 0 100%, from(#79bc6e),
+		to(#61a854) );
+	background-image: -webkit-linear-gradient(top, #79bc6e 0, #61a854 100%);
+	background-image: -o-linear-gradient(top, #79bc6e 0, #61a854 100%);
+	background-image: linear-gradient(to bottom, #79bc6e 0, #61a854 100%)
+}
+
+body .catalogList ul li.selected span,body .catalogList ul li.selected a
+	{
+	color: #fff
+}
+
+body .catalogList .groupAdd {
+	border-top: 1px solid #d3d3d3;
+	border-bottom: 1px solid #d3d3d3;
+	padding: 5px 0 5px 20px
+}
+
+body .catalogList .groupAdd a {
+	margin-left: 0;
+	padding: 0 0 0 25px
+}
+
+body .catalogList .groupAdd:hover .iconAdd {
+	background-position: 0 -551px
+}
+
+body .catalogList .groupInput {
+	padding: 3px 5px;
+	width: 140px
+}
+
+body .catalogList .group .groupInputArea {
+	display: none
+}
+
+body .catalogList .group .icon18 {
+	display: none;
+	padding: 5px 0 5px 10px;
+	float:right;
+}
+body .catalogList .group .title {
+	float:left;
+}
+body .catalogList .groupSelect {
+	position: relative
+}
+
+body .catalogList .groupSelect .icon18 {
+	display: block;
+	position: absolute;
+	top: 6px
+}
+
+body .catalogList .groupSelect .iconDel,body .catalogList .groupSelect .iconDelB
+	{
+	right: 5px
+}
+
+body .catalogList .groupSelect .iconEdit,body .catalogList .groupSelect .iconEditB
+	{
+	right: 25px
+}
+
+body .catalogList .groupEdit .groupInputArea {
+	display: block
+}
+
+body .catalogList .groupEdit a,body .catalogList .groupEdit .icon18 {
+	display: none
+}
+
+body .listTitle {
+	padding: 2px 20px 2px 20px
+}
+
+body .buddyRichInfo {
+	left: 100px
+}
+
+body .msgSenderAvatar {
+	margin-left: 20px
+}
+
+body .msgSender {
+	margin-left: 20px;
+	max-width: 150px;
+	display: inline-block;
+	word-wrap: normal;
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis
+}
+
+body .remarkName {
+	color: #424242
+}
+
+body .remarkName .name {
+	max-width: 120px;
+	overflow: hidden;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	word-wrap: normal
+}
+
+body .remarkName .name img {
+	vertical-align: middle
+}
+
+body .msgSenderRemark {
+	margin-left: 5px
+}
+
+.selectArea {
+	vertical-align: middle;
+	margin-right: 3px;
+	*margin-right: 10px
+}
+
+.selectArea select {
+	max-width: 200px;
+	margin-right: 5px;
+	white-space: nowrap;
+	overflow: hidden
+}
+
+.sender_line button,.sender_line .btnGrayS {
+	vertical-align: middle
+}
+
+.listItemOpr .btnGrayS,.listItemOpr button {
+	vertical-align: middle
+}
+
+.meetingFriendPage .listTitle .group {
+	text-align: center;
+	width: 90px
+}
+
+.meetingFriendPage .listTitle .opt {
+	text-align: center;
+	width: 100px
+}
+
+.meetingFriendPage .msgSender {
+	display: inline-block;
+	max-width: 150px;
+	overflow: hidden;
+	text-overflow: ellipsis;
+	white-space: nowrap;
+	word-wrap: normal
+}
+
+.meetingFriendPage .msgSender.meeting {
+	margin-left: 0
+}
+
+.meetingFriendPage .contentBox {
+	margin-left: 20px;
+	width: 420px
+}
+
+.meetingFriendPage #listContainer .btnArea .opt {
+	display: none
+}
+
+.meetingFriendPage #listContainer .btnArea button {
+	margin-left: 10px
+}
+
+.meetingFriendPage #listContainer .editOpArea .opt {
+	display: block
+}
+
+.meetingFriendPage #listContainer .editOpArea button {
+	display: none
+}
+
+.meetingFriendPage #listContainer .optbtn {
+	text-align: center;
+	width: 100px
+}
+
+.listItemOpr button {
+	margin-left: 10px
+}
